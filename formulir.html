@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir</title>
+  </head>
+  <body>
+    <h1 align="center">Latihan Formulir</h1>
+    <form action="width:30%" method="post">
+      <fieldset>
+        <legend></legend>
+        <table>
+          <tr>
+            <td width="120">Nama</td>
+            <td>:</td>
+            <td><input type="text" placeholder="Masukkan nama"></td>
+          </tr>
+          <tr>
+            <td>Password</td>
+            <td>:</td>
+            <td><input type="password" placeholder="Masukkan password"></td>
+          </tr>
+          <tr>
+            <td>Tanggal Lahir</td>
+            <td>:</td>
+            <td><input type="date"></td>
+          </tr>
+          <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td><input type="radio">laki laki</td>
+            <td><input type="radio">Perempuan</td>
+          </tr>
+          <tr>
+            <td>Nomor Telepon</td>
+            <td>:</td>
+            <td><input type="number" placeholder="Masukkan Nomor Telepon"></td>
+          </tr>
+          <tr>
+            <td>Asal Kota</td>
+            <td>:</td>
+            <td><select>
+                <option>Yogyakarta</option>
+                <option>Purwokerto</option>
+                <option>Jakarta</option>
+                <option>Malang</option>
+                <option>Bandung</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td>Alamat</td>
+            <td>:</td>
+            <td><textarea cols="30" rows="10" placeholder="Masukkan Alamat Lengkap"></textarea></td>
+          </tr>
+          <tr>
+            <td>Hobi</td>
+            <td>:</td>
+            <td><input type="checkbox">Renang</td>
+            <td><input type="checkbox">Tidur</td>
+            <td><input type="checkbox">Game</td>
+          </tr>
+          <tr>
+            <td>Makanan Favorit</td>
+            <td>:</td>
+            <td><input type="text" id="haha" name="Makanan" list="enak" placeholder="Pilih Makanan Favorit"/>
+                <datalist id="enak"> 
+                    <option value="Ayam goreng"></option>
+                    <option value="Nasi goreng"></option>
+                    <option value="Nasi kulit"></option>
+                    <option value="Indomie"></option>
+                    <option value="Spagetti"></option>
+                </datalist>
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+    <br>
+    <center>
+        <input type="button" value="Next Page">
+    </center>
+  </body>
+</html>
